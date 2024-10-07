@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+body {
+    overflow-x: hidden;
+    margin: 0 auto;
+    z-index: 0;
+    font-family: sans-serif;
+    background-color:#484444; 
+ 
+}
+
+
+ p{
+    color: #a4a2a2; 
+ }
+
+.row a{
+    color: #C73659;
+}
+
+
+.carousel-inner img {
+    height: 100vh;
+    object-fit: cover;
+}
+
+.container-fluid .box{
+    overflow-x: hidden;
+}
+
+
+@media screen and (max-width: 600px) {
+     .main{
+      display: none;
+    }
+
+    .article{
+        min-height: 100vh;
+        display: block;
+        background-position: center;
+        background-size: cover;
+    }
+}

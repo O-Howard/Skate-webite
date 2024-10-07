@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+body {
+    margin: 0 auto;
+    z-index: 0;
+    font-family: sans-serif;
+    background-color: #484444;
+    color: white;
+}
+
+main .container{
+    max-width: 1140px;
+}
+
+
+main p {
+    color: #a4a2a2;
+}
+
+main .quote {
+    color: #C73659;
+    font-size: 40px;
+    font-family: "Yellowtail", cursive;
+    font-weight: 100;
+    font-style: normal;
+}
+
+main img {
+    
+    width: 100%;
+    
+    object-fit: cover;
+
+}
+
+#more {
+    display: none;
+}
+
+#myBtn{
+    background-color: Transparent;
+    color: #C73659;
+    border: none;
+}

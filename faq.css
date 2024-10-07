@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    z-index: 0;
+    font-family: sans-serif;
+    background-color: #484444;
+    color: white;
+}
+
+.accordion-item .accordion-header .accordion-button {
+    background-color: rgb(46, 45, 45);
+    color: White;
+}
+
+.accordion-item .accordion-body {
+    background: #484444;
+    color: #a4a2a2;
+}
+
+.accordion-item .accordion-header .accordion-button.collapsed {
+    background-color: rgba(46, 45, 45, 0.900);
+    color: white;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

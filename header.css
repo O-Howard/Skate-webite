@@ -1,0 +1,104 @@
+
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 999999999;
+    
+}
+
+
+
+header .container-fluid {
+    background: rgba(46, 45, 45, 0.900);
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.logo {
+
+    font-family: "Candal", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    margin-left: 25px;
+    color: white;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+header .navbar-nav a::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0%;
+    background: white;
+    transition: 1000ms;
+    margin: 0 auto;
+
+}
+
+nav a:hover::after {
+    width: 100%;
+
+
+}
+
+
+nav a::before {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0%;
+    background: white;
+    transition: 1000ms;
+    margin: 0 auto;
+
+
+
+}
+
+nav a:hover::before {
+    width: 100%;
+
+
+}
+
+
+header .navbar {
+    display: flex;
+    justify-content: end;
+
+}
+
+header .navbar-toggler {
+    border: none;
+}
+
+
+
+header .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' linecap='round' linejoin='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+header nav {
+    margin-right: 25px;
+
+}
+
+header .nav-link {
+    color: white !important;
+    font-weight: bold;
+}
+
+
+header a {
+    margin-left: 25px;
+}

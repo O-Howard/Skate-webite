@@ -1,0 +1,28 @@
+* {
+
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+footer {
+    background: #2e2d2d;
+    max-height: 100px;
+    
+    
+    
+}
+
+footer a {
+    font-size: 30px;
+    color: white;
+    margin: 0 50px;
+
+}
+
+footer i:hover{
+    color: #C73659;
+}
